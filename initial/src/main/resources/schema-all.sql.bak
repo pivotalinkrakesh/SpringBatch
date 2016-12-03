@@ -1,0 +1,6 @@
+DROP TABLE claims IF EXISTS;
+
+CREATE TABLE CLAIMS  (
+    claim_id VARCHAR(2000) NOT NULL PRIMARY KEY,
+    claim_data VARCHAR(2000)
+);
