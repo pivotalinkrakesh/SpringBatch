@@ -1,0 +1,9 @@
+com\medecision\batch\execution\JobCompletionNotificationListener.class
+com\medecision\batch\processor\ClaimJsonProcessor.class
+com\medecision\batch\reader\JsonFlatFileItemReader.class
+com\medecision\batch\execution\Application.class
+com\medecision\batch\processor\ClaimProcessor.class
+com\medecision\batch\writer\ClaimsLineAggegator.class
+com\medecision\batch\writer\BeanSqlParameterMapper.class
+com\medecision\batch\writer\ClaimFlatFileItemWriter.class
+com\medecision\batch\writer\ClaimsDatabaseWriter.class
