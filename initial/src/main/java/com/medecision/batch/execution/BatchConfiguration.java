@@ -50,8 +50,8 @@ public class BatchConfiguration {
 		//return db;
     	DriverManagerDataSource dataSource = new DriverManagerDataSource();
     	    dataSource.setDriverClassName("org.hsqldb.jdbcDriver");
-    	    dataSource.setUrl("jdbc:hsqldb:hsql://localhost");
-    	    dataSource.setUsername("sa");
+    	    dataSource.setUrl("jdbc:hsqldb:hsql://localhost/");
+    	    dataSource.setUsername("SA");
     	    dataSource.setPassword("");
     	
     	  return dataSource; 
